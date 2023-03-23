@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" type = "text/css "href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class = "row">
+        <div class = "column">
+            <h1>Kalkulator BMI</h1>
+    <p>Berat badan ideal adalah impian semua orang. Tidak hanya memiliki</br> 
+    bentuk tubuh yang menunjang penampilan, berat badan ideal juga menandakan</br>
+    kondisi tubuh yang sehat. Bagaimana denganmu? Yuk, hitung sekarang di</br>
+    kalkulator BMI.</p>
+    <div id = "calculator">
+        <form id="" name="" class="form-group">
+            <div class = "from-group">
+                <b>Jenis Kelamin</b>
+                <br></br>
+                <input type="radio" name="kelamin" id="L">
+                <label for="kelamin">Laki</label>
+                <input type="radio" name="kelamin" id="P">
+                <label for="kelamin">Perempuan</label><br></br>
+            </div>
+
+            <div class = "form-group1">
+                <b>Berat Badan(kg)</b>
+                <div class="icon-input-text">
+                    <i class="fa fa-solid fa-pencil"></i>
+                    <input name="bb" type="text" size="25" onkeypress="return /[0-9]/i.test(event.key)" required="true"/><br></br>
+                </div>
+
+            <div class="form-group2">
+                <b>Usia(Tahun)</b>
+                <div class="icon-input-text">
+                    <i class="fa fa-solid fa-pencil"></i>
+                    <input name="tahun" type="text" size="25" onkeypress="return /[0-9]/i.test(event.key)" required="true"/><br></br>
+                </div>
+            </div>
+            <div class="form-group3">
+                <b>Tinggi Badan(cm)</b>
+                <div class="icon-input-text">
+                    <i class="fa fa-solid fa-pencil"></i>
+                    <input name="tb" type="text" size="25" onkeypress="return /[0-9]/i.test(event.key)" required="true"/><br></br>
+                </div>
+            </div>
+            <div class="form-group4"><br></br>
+                <button onclick="calculatebmi()" id="submit1">Calculate BMI</button>
+                <input type="reset" id="submit2">
+                <div id="result"></div>
+            </div>
+            </div>
+            <div class="desc"><br></br>
+                <p1>Keunggulan Fitur</p1><br></br>
+                <p2>1. Menghitung Berat Badan </br> 
+                    2. Menentukan kategori berat badan ideal atau tidak </br> 
+                    3. Mempersiapkan program penurunan berat badan </p2><br></br>
+                    <br></br>
+                <p3>Kalkulator ini hanya boleh digunakan oleh orang dewasa (wanita hamil atau menyusui tidak boleh</br> 
+                    mengandalkan pembacaan BMI ini) dan tidak ada tindakan yang harus diambil berdasarkan nilainya</br>
+                    selain berkonsultasi dengan orang yang  memenuhi syarat seperti dokter <br></br>
+                </p3>
+                <p4><br></br>Kalkulator akan memberi Anda gambaran tentang pertandingan berat badan Anda dengan nilai umum.</br>
+                Indeks Massa Tubuh (atau BMI) dihitung sebagai berat badan Anda (dalam Kilogram) dibagi </br>
+                dengan kuadrat tinggi badan Anda (dalam Meter) atau BMI =Kg/M<sup>2</sup></p4>
+            </div>
+        </div>
+    </div>    
+
+<div class="hasil">
+    <h2>Hasil</h2>
+    <div class="download">
+        <form id="" name="" class="form">
+            <div id="form-group4">
+                <div id="comment1" style="font-size: 20px;">Berat Badan Lebih</div>
+                </br>
+                <div id="hasil-nilai" style="font-size: 30px;">00.00</div>
+                </br>
+                <div id="comment2" style="font-size: 20px;">Anda memiliki berat badan berlebih</div>
+            </div>
+            </br>
+
+            <div class="button-group">
+                <input type="submit" id="download" name="download" value="Download Hasil BMI">
+            </div>
+            <div class="txt"><br></br>
+                <p5>Hasil BMI diantara 23 dan 25</p5>
+            </div>
+            <div class="txt1"><br></br>
+                <p6>Anda berada dalam kategori overweight atau berat badan berlebih</br>
+                Cara terbaik untuk menurunkan berat badan adalah dengan mengatur kalori makanan yang</br>
+                dikonsumsi dan olahraga.</br>
+                Jika BMI anda berada dalam kategori ini maka Anda dianjurkan untuk menurunkan berat badan</br>
+                hingga batas normal.</p6>
+            </div>
+            <div class="button-group1">
+                <button onclick="" id="submit3">Konsultasi Gizi Via Ahli</button>
+                <button onclick="" id="submit4">Registrasi Online Ahli Gizi</button>
+            </div>
+            <div class="txt2">
+                <p7>BMI tidak sepenuhnya mewakili diagnosis menyeluruh dari kesehatan tubuh dan resiko penyakit </br>
+                seseorang. Anda perlu konsultasi lebih lanjut mengenai resiko dan kekhawatiran Anda terkait dengan </br>
+                berat badan Anda.</p7><br></br>
+            </div>
+            <div class="txt3">
+                <p8>Beberapa penyakit yang berasal dari kegemukan</p8>
+            </div>
+            <div class="txt4">
+                <p9></p9>Diabetes</br>Hipertensi
+                </br>Sakit Jantung</br>Osteoporosis<br></br></p9>
+            </div>
+            <div class="button-group2">
+                <button onclick="" id="submit3">Konsultasi Gizi Via Ahli</button>
+                <button onclick="" id="submit4">Registrasi Online Ahli Gizi</button>
+            </div>
+            <div class="end" id="end"></div>
+            <p10><br></br>Download Aplikasi</p10>
+        </form>
+        
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+<html>
+</html>

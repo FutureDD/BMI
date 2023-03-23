@@ -1,0 +1,168 @@
+.row{
+    color: black;
+    padding: 20px;
+}
+
+.form-group{
+    background-color: rgb(230, 227, 227);
+}
+.form-group1{
+    padding-left: 10px;
+}
+.form-group3{
+    text-decoration-color: white;
+}
+
+
+input[type="submit"]{
+    background-color: rgb(24, 219, 219);
+    color: white;
+    height: 1cm;
+    width: 4cm;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+submit:hover {
+    background-color: #3e6a8e;
+  }
+input[type="reset"]{
+    background-color: white;
+    height: 1cm;
+    width: 4cm;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.desc{
+    background-color: white;
+    font-size: medium;
+    font: bold;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+  } 
+  .row {
+    flex-basis: 50%;
+  }
+    .hasil {
+    flex-basis: 50%;
+    padding: 20px;
+  }
+  
+  p1{
+    font-size: 1.3em;
+  }
+  p8{
+    font-size: 1.3em;
+  }
+  p9{
+    font-size: 1.3em;
+  }
+
+  h2{
+    font-weight: normal;
+  }
+
+  .download{
+    background-color: rgb(230, 227, 227);
+  }
+  #download{
+    text-align: center;
+  }
+  #hasil-nilai{
+    text-align: center;
+  }
+  #comment1{
+    text-align: center;
+  }
+  #comment2{
+    text-align: center;
+  }
+  .txt4{
+    background-color: rgb(230, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .txt3{
+    background-color: rgb(230, 227, 227);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .txt2{
+    background-color: white;
+  }
+  .txt1{
+    background-color: white;
+  }
+  .txt{
+    background-color: white;
+  }
+  .button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-group1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-group2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #submit1{
+    background-color: rgb(24, 219, 219);
+    color: white;
+    height: 1cm;
+    width: 4cm;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  #submit2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 1cm;
+    width: 4cm;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  #submit3{
+    background-color: rgb(24, 219, 219);
+    color: white;
+    height: 1cm;
+    width: 4cm;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  #submit4{
+    background-color: rgb(24, 219, 219);
+    color: white;
+    height: 1cm;
+    width: 4cm;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+  p10{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    }
